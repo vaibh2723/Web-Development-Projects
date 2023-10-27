@@ -1,4 +1,3 @@
 # Web-Development-Projects
-This is the repo in which all the projects have been while learning HTML , CSS , Javascript 
 
-
+This repo contains all the projects I made while learning HTML , CSS , Javascript

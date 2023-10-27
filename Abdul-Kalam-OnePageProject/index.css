@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 85%;
+    width: 70%;
+    padding: 1.5rem 2rem ;
+    background-color: rgb(209, 209, 237);
+    border: 5px solid rgb(6, 6, 15);
+    border-radius: 10px;
+}
+
+img {
+    height: 50%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.right-heading {
+    display:flex;
+    flex-direction: column;
+    justify-content: end; 
+}
+
+.right-heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.section p , .biography-section{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    color: rgb(18, 17, 17);
+    margin: 15px;
+    text-align: left;
+}
+
+.biography-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 16px;
+    color: rgb(9, 8, 8);
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(9, 8, 8);
+    font-weight: 900;
+}
+
+@media (min-width:500px  ) and (max-width:720px) {
+    .right-heading h2 {
+        font-size:20px
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .section p , .biography-section {
+            font-size: 16px;
+        }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:499px  ) {
+    .right-heading h2 {
+        font-size:16px
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .section p, .biography-section {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
